@@ -8,6 +8,13 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <Button x:Name="connectButton" Content="Connect via WebSocket" Click="connectButton_Click" />
 
+            <TextBox x:Name="logTextBox" HorizontalAlignment="Left" Margin="10,47,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="583" Width="340"/>
+
+            <TextBox x:Name="incomingMessagesTextBox" HorizontalAlignment="Left" Margin="10,47,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="583" Width="340"/>
+
+        </StackPanel>
     </Grid>
 </Page>

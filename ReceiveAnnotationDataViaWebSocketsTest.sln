@@ -5,16 +5,21 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveAnnotationDataViaWebSocketsTest", "ReceiveAnnotationDataViaWebSocketsTest\ReceiveAnnotationDataViaWebSocketsTest.csproj", "{52CB2944-5271-453F-84DD-5A7BCB47DF2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSAUnity", "..\..\..\star-webrtc\WSAUnity\WSAUnity\WSAUnity.csproj", "{5635CF03-FD91-43F0-B839-94D9E9F7816E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Debug|ARM.ActiveCfg = Debug|ARM
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Debug|ARM.Build.0 = Debug|ARM
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -24,6 +29,7 @@ Global
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Debug|x86.ActiveCfg = Debug|x86
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Debug|x86.Build.0 = Debug|x86
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Debug|x86.Deploy.0 = Debug|x86
+		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Release|Any CPU.ActiveCfg = Release|x86
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Release|ARM.ActiveCfg = Release|ARM
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Release|ARM.Build.0 = Release|ARM
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Release|ARM.Deploy.0 = Release|ARM
@@ -33,6 +39,22 @@ Global
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Release|x86.ActiveCfg = Release|x86
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Release|x86.Build.0 = Release|x86
 		{52CB2944-5271-453F-84DD-5A7BCB47DF2D}.Release|x86.Deploy.0 = Release|x86
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Debug|ARM.Build.0 = Debug|ARM
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Debug|x64.ActiveCfg = Debug|x64
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Debug|x64.Build.0 = Debug|x64
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Debug|x86.ActiveCfg = Debug|x86
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Debug|x86.Build.0 = Debug|x86
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Release|ARM.ActiveCfg = Release|ARM
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Release|ARM.Build.0 = Release|ARM
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Release|x64.ActiveCfg = Release|x64
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Release|x64.Build.0 = Release|x64
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Release|x86.ActiveCfg = Release|x86
+		{5635CF03-FD91-43F0-B839-94D9E9F7816E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
